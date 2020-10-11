@@ -89,7 +89,7 @@ In the given data, all entries had day missing. So, the function above is called
 				(...)
 		
 		
-##Creating series_id field and points array
+## Creating series_id field and points array
 
 Series_id: is an identifying fiels, therefore each entry has to be unique. It is possible when it concatenates a few information such as REF_AREA, ENERGY_PRODUCT, FLOW_BREAKDOWN and UNIT_MEASURE.
 Points :is an array containing the date in ISO format and a float value, OBS_VALUE.
@@ -150,7 +150,7 @@ The lastfield to be created in the "Fields":
 		    jsonfile.write ('\n')
 
 
-#Sources
+# Sources
 
 <ul>
 <li><a href="https://docs.python.org/3/library/">Standard Library Python 3.8</a></li>
